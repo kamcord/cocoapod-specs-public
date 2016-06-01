@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   }
   s.ios.vendored_frameworks = 'MobileVLCKit-binary/MobileVLCKit.framework'
   s.ios.deployment_target = '8.0'
-  s.frameworks = 'QuartzCore', 'CoreText', 'AVFoundation', 'Security', 'CFNetwork', 'AudioToolbox', 'OpenGLES', 'CoreGraphics'
+  s.frameworks = 'QuartzCore', 'CoreText', 'AVFoundation', 'Security', 'CFNetwork', 'AudioToolbox', 'OpenGLES', 'CoreGraphics', 'VideoToolbox'
   s.libraries = 'stdc++', 'stdc++.6', 'xml2', 'z', 'bz2', 'iconv'
   s.requires_arc = false
   s.xcconfig = {
